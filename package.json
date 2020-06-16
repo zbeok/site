@@ -2,6 +2,8 @@
   "name": "starter-node-angular",
   "main": "server.js",
   "scripts": {
+    "installs":"npm install",
+    "bower":"bower install",
     "start": "node server.js"
   },
   "dependencies": {

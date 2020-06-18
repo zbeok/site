@@ -1,29 +1,93 @@
-#mission{
+#centerpiece{
+  position:fixed;
+  background-color:#fff;
+  z-index:10000;
+  width:75%;
+  left:50%;
+  margin-left:-37.5%;
+  padding:5px;
+  top:30%;
+}
+#card {
+  background-color:#000;
   color:#fff;
-  margin-top:-80px;
-  height:100vh !important;
-  background-color:rgba(0,0,0,.4);
-  padding:0 10%;
+  padding:40px 20px;
+  overflow:hidden;
+}
+#name {
+  font-size:60px;
 }
 #about{
   color:#fff;
 /*   background-color:rgba(0,0,0,.6); */
 }
-#products{
+
+.slice{
+  height:100vh;
+  padding:0;
+  background-color:#baddad;
+  z-index:1000;
+  overflow:hidden;
+  position:relative;
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  transition: all .7s ease; 
+}
+#bg{
+  margin:0;
+}
+.label{
+  font-family:"Roboto Mono",monospace;
+  position:relative;
+  font-size:9vw;
+  margin: -2vw 0 0 0;
+  text-align:center;
+  z-index:100;
+}
+/*For smaller screens*/
+@media screen and (max-width: 575px) {
+  .label{
+    font-size:18vh;
+  margin: -4vw 0 0 0;
+  }
+}
+
+#art {
+  /*font-size:10vw;*/
+  background-color:#fcc;
+}
+#art:hover{
+  opacity:0.8;
+  background-color:#daa;
+}
+
+#code {
+  background-color:#0fc;
   color:#fff;
-  background-color:rgba(0,0,0,.6);
 }
-#careers{
+#code:hover {
+  opacity:0.8;
+  /*background-color:#0db;sd*/
+}
+canvas {
+  position:absolute;
+  top:0;left:0;
+  z-index:0;
+}
+#person {
   color:#fff;
-  background-color:rgba(0,0,0,.4);
-  padding:0 20%;
+  background-color:#ccc;
+  background-image:url("/me.gif");
+  background-position:center;
 }
-.product{
-  margin:20px;
-  padding:80px 0;
-  border-radius:10px;
-  background-color:#000;
+#person:hover {
+  opacity:0.8;
+  background-color:#aaa;
 }
-.product .btn {
-  margin:20px;
+body{
+  padding:0;
+}
+.navbar {
+  width:0;
 }

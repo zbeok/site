@@ -8,17 +8,17 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'HomeController'
 		})
 
-		.when('/mission', {
+		.when('/about', {
 			templateUrl: 'views/mission.html',
 			controller: 'MissionController'
 		})
 
-		.when('/products', {
+		.when('/art', {
 			templateUrl: 'views/products.html',
 			controller: 'ProductsController'	
 		})
 
-		.when('/careers', {
+		.when('/cs', {
 			templateUrl: 'views/careers.html',
 			controller: 'CareersController'	
 		})

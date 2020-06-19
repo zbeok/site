@@ -1,6 +1,6 @@
 angular.module('mainApp', 
 				['ngRoute', 'appRoutes', 
-				 'MainCtrl','HomeCtrl', 'MissionCtrl','ProductsCtrl','CareersCtrl', 'ContactCtrl']);
+				 'MainCtrl','HomeCtrl','ContactCtrl']);
 angular.module('artApp', 
 				['ngRoute', 'artRoutes', 
 				 'ArtCtrl']);

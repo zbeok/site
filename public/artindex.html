@@ -29,20 +29,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
 <script src="https://kit.fontawesome.com/ca918c4861.js" crossorigin="anonymous"></script>
     <!-- ANGULAR CUSTOM -->
-    <script src="js/controllers/MainCtrl.js"></script>
-    <script src="js/controllers/HomeCtrl.js"></script>
-    <script src="js/controllers/MissionCtrl.js"></script>
-    <script src="js/controllers/ProductsCtrl.js"></script>
-    <script src="js/controllers/CareersCtrl.js"></script>
-    <script src="js/controllers/ContactCtrl.js"></script>
+    <script src="js/controllers/art/artCtrl.js"></script>
     <script src="js/appRoutes.js"></script>
     <script src="js/app.js"></script>
   </head>
-  <body ng-app="mainApp" ng-controller="MainController">
+  <body ng-app="artApp" ng-controller="ArtController">
     <!-- HEADER -->
     <nav class="navbar">
       <div class="navbar-header">
-        <a class="navbar-brand" href="/"
+        <a class="navbar-brand" href="/" onclick="window.location='/'"
           ><h1 id="title">SOPHIA CAO</h1></a
         >
       </div>
@@ -76,10 +71,12 @@
         ><i class="fa fa-bars"></i
       ></a>
       <ul class="nav" id="nav" onmouseleave="myFunction(false)">
-        <a onclick="window.location='/art'" href="/art"><li class="nav-bit">art</li></a>
-        <a onclick="window.location='/cs'" href="/cs"><li class="nav-bit">cs</li></a>
-        <!-- 			<a href="/careers"><li class="nav-bit">careers</li></a> -->
-        <a href="/contact"><li class="nav-bit">contact</li></a>
+        <a href="/art"><li class="nav-bit">home</li></a>
+        <a href="/animations"><li class="nav-bit">animations</li></a>
+        <a href="/illustrations"><li class="nav-bit">illustrations</li></a>
+        <a href="/games"><li class="nav-bit">games</li></a>
+        <a href="/design"><li class="nav-bit">design</li></a>
+        <a href="/contact" onclick="window.location='/contact'"><li class="nav-bit">contact</li></a>
       </ul>
     </nav>
     <div class="container-fluid">

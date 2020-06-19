@@ -35,6 +35,18 @@ module.exports = function(app) {
   });
   // frontend routes =========================================================
   // route to handle all angular requests
+  app.get("/art/resume", function(req, res) {
+    res.sendFile("./public/views/art/art2020.pdf", options);
+  });
+  app.get("/cs/resume", function(req, res) {
+    res.sendFile("./public/views/cs/code2020.pdf", options);
+  });
+  app.get("/art*", function(req, res) {
+    res.sendFile("./public/artindex.html", options);
+  });
+  app.get("/cs*", function(req, res) {
+    res.sendFile("./public/csindex.html", options);
+  });
   app.get("*", function(req, res) {
     res.sendFile("./public/index.html", options);
   });

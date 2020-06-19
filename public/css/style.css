@@ -21,6 +21,10 @@ a {
 	text-decoration: none !important;
 	transition: color .7s ease;
 }
+a:visited, a:active {
+  color:blue !important;
+
+}
 p {
 	margin:0;
 }

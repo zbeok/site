@@ -29,20 +29,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
 <script src="https://kit.fontawesome.com/ca918c4861.js" crossorigin="anonymous"></script>
     <!-- ANGULAR CUSTOM -->
-    <script src="js/controllers/MainCtrl.js"></script>
-    <script src="js/controllers/HomeCtrl.js"></script>
-    <script src="js/controllers/MissionCtrl.js"></script>
-    <script src="js/controllers/ProductsCtrl.js"></script>
-    <script src="js/controllers/CareersCtrl.js"></script>
-    <script src="js/controllers/ContactCtrl.js"></script>
+    <script src="js/controllers/cs/CSCtrl.js"></script>
     <script src="js/appRoutes.js"></script>
     <script src="js/app.js"></script>
   </head>
-  <body ng-app="mainApp" ng-controller="MainController">
+  <body ng-app="csApp" ng-controller="CSController">
     <!-- HEADER -->
     <nav class="navbar">
       <div class="navbar-header">
-        <a class="navbar-brand" href="/"
+        <a class="navbar-brand" href="/" onclick="window.location='/'" 
           ><h1 id="title">SOPHIA CAO</h1></a
         >
       </div>
@@ -76,10 +71,11 @@
         ><i class="fa fa-bars"></i
       ></a>
       <ul class="nav" id="nav" onmouseleave="myFunction(false)">
-        <a onclick="window.location='/art'" href="/art"><li class="nav-bit">art</li></a>
-        <a onclick="window.location='/cs'" href="/cs"><li class="nav-bit">cs</li></a>
-        <!-- 			<a href="/careers"><li class="nav-bit">careers</li></a> -->
-        <a href="/contact"><li class="nav-bit">contact</li></a>
+        <a href="/cs"><li class="nav-bit">home</li></a>
+        <a href="/cs/games"><li class="nav-bit">games</li></a>
+        <a href="/cs/experiments"><li class="nav-bit">experiments</li></a>
+  			<a href="/cs/resume"><li class="nav-bit">resume</li></a>
+        <a href="/contact" onclick="window.location='/contact'"><li class="nav-bit">contact</li></a>
       </ul>
     </nav>
     <div class="container-fluid">

@@ -6,6 +6,7 @@
   left:50%;
   margin-left:-37.5%;
   padding:5px;
+  filter: drop-shadow(0 0 0.75rem #333);
   top:30%;
 }
 #card {
@@ -13,6 +14,9 @@
   color:#fff;
   padding:40px 20px;
   overflow:hidden;
+}
+#centerpiece:hover {
+
 }
 #name {
   font-size:60px;
@@ -60,6 +64,8 @@
 #art:hover{
   opacity:0.8;
   background-color:#daa;
+  z-index:1001;
+  filter: drop-shadow(0 0 0.75rem #333);
 }
 
 #code {
@@ -68,7 +74,8 @@
 }
 #code:hover {
   opacity:0.8;
-  /*background-color:#0db;sd*/
+  z-index:1001;
+  filter: drop-shadow(0 0 0.75rem #333);
 }
 canvas {
   position:absolute;
@@ -82,12 +89,18 @@ canvas {
   background-position:center;
 }
 #person:hover {
-  opacity:0.8;
+  opacity:0.6;
   background-color:#aaa;
+  z-index:1001;
+  filter: drop-shadow(0 0 0.75rem #333);
 }
 body{
   padding:0;
 }
 .navbar {
   width:0;
+  opacity:0;
+}
+#footer{
+  opacity:0;
 }

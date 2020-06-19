@@ -3,8 +3,8 @@
 body { 
 	padding:70px 0 50px 0; 
 	font-family: 'Josefin Sans', 'Helvetica Neue', Arial, sans-serif;
-	background-color: #fff;
-  background-image:url("https://www.trainingzone.co.uk/sites/default/files/learning_technology_solutions_0.jpg");
+	background-color: #fcc;
+  /*background-image:url("https://www.trainingzone.co.uk/sites/default/files/learning_technology_solutions_0.jpg");*/
   background-size:cover;
   background-attachment:fixed;
   background-position: center;

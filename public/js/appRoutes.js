@@ -41,6 +41,22 @@ angular.module('artRoutes', []).config(['$routeProvider', '$locationProvider', f
 			templateUrl: 'views/art/art.html',
 			controller: 'ArtController'
 		})
+		.when('/art/animations', {
+			templateUrl: 'views/art/animations.html',
+			controller: 'ArtController'
+		})
+		.when('/art/illustrations', {
+			templateUrl: 'views/art/illustrations.html',
+			controller: 'ArtController'
+		})
+		.when('/art/games', {
+			templateUrl: 'views/art/games.html',
+			controller: 'ArtController'
+		})
+		.when('/art/design', {
+			templateUrl: 'views/art/design.html',
+			controller: 'ArtController'
+		})
   ;
 
 	$locationProvider.html5Mode(true);
@@ -58,10 +74,6 @@ angular.module('csRoutes', []).config(['$routeProvider', '$locationProvider', fu
 		.when('/cs/games', {
 			templateUrl: 'views/cs/games.html',
 			controller: 'CSController'
-		})
-		.when('/cs/resume', {
-			templateUrl: 'views/cs/code2020.pdf',
-			// controller: 'CSController'
 		})
 		.when('/cs/experiments', {
 			templateUrl: 'views/cs/experiments.html',

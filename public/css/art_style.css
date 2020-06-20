@@ -1,0 +1,27 @@
+#centerpiece{
+  position:fixed;
+  background-color:#fff;
+  z-index:10;
+  width:75%;
+  left:50%;
+  margin-left:-37.5%;
+  padding:5px;
+  filter: drop-shadow(0 0 0.75rem #333);
+  top:25%;
+}
+#card {
+  background-color:#000;
+  color:#fff;
+  padding:40px 20px;
+  overflow:hidden;
+}
+#centerpiece:hover {
+
+}
+#name {
+  font-size:60px;
+}
+#about{
+  color:#fff;
+/*   background-color:rgba(0,0,0,.6); */
+}

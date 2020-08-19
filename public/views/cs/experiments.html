@@ -1,46 +1,72 @@
-<link rel="stylesheet" href="css/cs_style.css">
+<link rel="stylesheet" href="css/template.css">
 
 <div class="section">
   <div class=" text-center my-auto">
-    <h1>SOPHIA CAO</h1>
+    <h1 id="main-title">EXPERIMENTS</h1>
     <p>
-      Here are some experiments I've been through. For more, check out my GitHub page!
+      Here are some experiments I've done, smaller-scale code projects that don't quite fit in a neat category. For more, check out my GitHub page!
     </p>
   </div>
 </div>
 
-<div class="section">
-  <div class=" text-center my-auto">
-    <h1>01101100 01100101 01100111 01101001 01100010 01101100 01100101</h1>
-    <p>
-      In making my asemic script, I looked into existing methods of inscribing information. At first I thought of ciphers, but I moved onto thinking about binary encoding of information. It reminded me of Braille, so I jumbled the ideas together to bring a dense informational paragraph script together. It is designed with the idea of space-efficient encoding of information, like binary code, but not too evocative of technology. I’ve printed in pamphlet form so that it further represents this dense chunk of information. The plotter adds inaccuracies that is more human than machine. What’s different about using a plotter device than a screen?
+<div id="legible" class="section">
+    <h1 class=" text-center">01101100 01100101 01100111 01101001 01100010 01101100 01100101</h1>
+  <div class="row my-auto">
+    <div class='col-sm-6'>
+    <video controls>
+      <source src="http://cmuems.com/2018/60212s/wp-content/uploads/2018/02/IMG_5638.mov" type="video/mp4">
+    Your browser does not support the video tag.
+    </video> 
+  </div>
+    <div class='col-sm-6'>
+      <img src="http://cmuems.com/2018/60212s/wp-content/uploads/2018/02/IMG_5640-640x480.jpg"/>
+      <p>
+      An asemic script generator, printed onto paper by a plotter. <br><br> 
+
+      I looked into existing methods of inscribing information. At first I thought of ciphers, but I moved onto thinking about binary encoding of information. It reminded me of Braille, so I jumbled the ideas together to bring a dense informational paragraph script together. It is designed with the idea of space-efficient encoding of information, like binary code, but not too evocative of technology. <br><br>
+      I printed a copy in pamphlet form so that it further reads as a dense block of information. 
     </p>
+    <div class="text-center ">
+    <button class="btn btn-primary" onclick="window.location='http://cmuems.com/2018/60212s/zbeok/02/15/zbeok-asemic/'">more</button></div>
+  </div>
   </div>
 </div>
-<div class="section">
+<div id="michaelmorts" class="section">
   <div class=" text-center my-auto">
     <h1>MICHAEL MORTS</h1>
-    <p>
-      A p5.js clock experiment. Time is often valuable only due to its scarcity. In our case, we only have as much as our lifespan allows. My clock measures time in micromorts, which is a unit that is one out of a million chance of death. When this clock runs in real time, it takes 100 “yous” and assigns them each an amount of micromorts. Then, for every unit of time (in my case milliseconds) the clock performs a check of which people have died. Done in real time, the clock mostly doesn’t seem to be doing anything; however, over the course of years, one may see that the “yous” slowly die off one by one, and a person running this clock will essentially have to race the clock to emerge alive. 
+      <small>
+      A p5.js clock experiment. 
+      </small>
+    <p>Time is often valuable only due to its scarcity; we only have as much as our lifespan allows. My clock measures time in micromorts, which is a unit that is one out of a million chance of death. When this clock runs in real time, it takes 100 “yous” and assigns them each an amount of micromorts. Then, for every unit of time (in my case milliseconds) the clock performs a check of which people have died. <br><br>
+      Done in real time, the clock mostly doesn’t seem to be doing anything; however, over the course of years, one may see that the “yous” slowly die off one by one, and a person running this clock will essentially have to race the clock to emerge alive. 
     </p>
+    <button class="btn btn-primary" onclick="window.location='http://cmuems.com/2018/60212s/zbeok/02/08/zbeok-clock/'">more</button>
   </div>
 </div>
-<div class="section">
-  <div class=" text-center my-auto">
-    <h1>SKETCHES</h1>
-    <p>
+<div id="sketches" class="section">
+    <h1 class=" text-center">SKETCHES</h1>
+  <div class="row  my-auto">
+    <div class="row my-auto">
+      <p>
 SUMMONING THE DEVIL
-	
+	<br><br>
 A Three.js mocap experiment. Taking preexisting motion (in this case, a Mixamo fbx file) I process each of the joints' velocities to create a display that describes the motion of the figure in an analytical fashion. I took much inspiration from William Forsythe’s videos because such a mathematical analysis of dance was satisfying to me. The result is an algorithm that takes the positions of joints and tries to create lines using a spline curve to interpolate the in-between points. The split between lines is mainly based on their velocities. This project was intended to be realtime, but seeing just the prototype works as well.
-	
+    </p>
+  </div>
+      <div class="row my-auto">
+       <p>
 A gif created by p5.js. I used easing functions to smooth the creation and destruction of my binary tree. Specifically, the double polynomial sigmoid seemed to have the ease in and out that I needed, which I applied to the framerate to allow the animation a sort of breathing quality.
-
+    </p>
+  </div>
+       <div class="row my-auto">
+        <p>
 MANIPEACOCK
     </p>
   </div>
+  </div>
 </div>
 
-<div class="section">
+<div id="graphics" class="section">
   <div class=" text-center my-auto">
     <h1>3D MODELING?</h1>
     <p>

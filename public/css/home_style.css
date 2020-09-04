@@ -59,7 +59,11 @@
 
 #art {
   /*font-size:10vw;*/
+  color:#fff;
   background-color:#fcc;
+  background-image:url("/assets/smallplay.gif");
+  background-position:right;
+  background-size: cover;
 }
 #art:hover{
   opacity:0.8;
